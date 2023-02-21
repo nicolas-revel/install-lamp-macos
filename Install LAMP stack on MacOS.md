@@ -6,9 +6,7 @@ Before installing any dependancy regarding your local LAMP stack, you need to be
 
 1.  Go to the Applications folder → MAMP PRO.
 2. Launch the MAMP PRO Uninstaller.app item.
-   ![[Pasted image 20230220152015.png]]
 3. In the MAMP PRO Uninstaller window, click the Uninstall button. It will remove all folders and files belonging to the MAMP PRO installation, including the MYSQL databases that were modified while using MAMP PRO.
-   ![[Pasted image 20230220152034.png]]
 4. Enter your administrator password to confirm the action.
 5. Remove the MAMP folder from the Applications folder.
 6. After this, I recommend that you check whether the app’s service files are still remaining on your Mac. By default, they should be stored in the hidden Library folder. In Finder press Command+Shift+G keys and type _~/Library_ in the search field. Click on **Go**.
@@ -143,7 +141,7 @@ pecl install xdebug
 
 On Apple M1 hardware, programs can either be compiled for the native M1/ARM64 architecture, or for the emulated x86_64 architecure. Sometimes there is a mismatch with the default and PECL will fail, or Xdebug won't load with a message such as:
 
-> PHP Warning:  Failed loading Zend extension 'xdebug.so' (tried: /opt/homebrew/lib/php/pecl/20190902/xdebug.so (dlopen(/opt/homebrew/lib/php/pecl/20190902/xdebug.so, 9): no suitable image found.  Did find:
+> PHP Warning:  Failed loading Zend extension 'xdebug.so' (tried: opt/homebrew/lib/php/pecl/20190902/xdebug.so (dlopen(/opt/homebrew/lib/php/pecl/20190902/xdebug.so, 9): no suitable image found.  Did find:
 >         /opt/homebrew/lib/php/pecl/20190902/xdebug.so: mach-o, but wrong architecture
 >         /opt/homebrew/lib/php/pecl/20190902/xdebug.so: stat() failed with errno=22), /opt/homebrew/lib/php/pecl/20190902/xdebug.so.so (dlopen(/opt/homebrew/lib/php/pecl/20190902/xdebug.so.so, 9): image not found)) in Unknown on line 0
 
