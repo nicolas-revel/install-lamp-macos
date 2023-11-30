@@ -120,6 +120,8 @@ Alias /phpmyadmin $HOMEBREW_PREFIX/share/phpmyadmin
 Then you can edit your phpmyadmin configuration file to allow connection with no password for users by uncommenting this line :
 
 ```php
+# /opt/homebrew/etc/phpmyadmin.config.inc.php
+
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 ```
 
