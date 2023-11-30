@@ -23,7 +23,7 @@ Before installing any dependancy regarding your local LAMP stack, you need to be
 Before going forward, remember to update your XCode version and then update homebrew by doing the following command :
 
 ```bash
-brew update
+brew update && brew upgrade
 ```
 
 Then we can start installing the different modules.
