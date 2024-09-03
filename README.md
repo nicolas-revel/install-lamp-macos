@@ -15,7 +15,7 @@ Before installing any dependancy regarding your local LAMP stack, you need to be
 	-   _~/Library/Caches_
 	-   _~/Library/Container_
 	-   _~/Library/Preferences_
-	-   _~/Library/Application Scrip
+	-   _~/Library/Application Scrip_
 8. Once you remove all remaining files of MAMP, empty your Trash bin to entirely remove MAMP from your Mac.
 
 ## Updating XCode and Brew
